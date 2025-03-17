@@ -6,7 +6,7 @@ The ResumeXpert API is a simple CRUD (Create, Read, Update, Delete) application 
 
 LIVE URL
 
-
+ai-reseume-nsfmo39bw-aryanmore325s-projects.vercel.app
 
 Features
 
@@ -26,7 +26,7 @@ Node.js
 
 Express.js
 
-MongoDB (with Mongoose ODM)
+MongoDB (Mongoose ODM)
 
 Postman (for testing API endpoints)
 
@@ -67,7 +67,7 @@ Request Body:
 
 {
   "name": "John Doe",
-  "email": "a@example.com",
+  "email": "johndoe@example.com",
   "phone": "123-456-7890",
   "skills": ["JavaScript", "React", "Node.js"],
   "experience": [
@@ -83,8 +83,8 @@ Response:
 
 {
   "_id": "resume_id",
-  "name": "aa",
-  "email": "a@example.com",
+  "name": "John Doe",
+  "email": "johndoe@example.com",
   "phone": "123-456-7890",
   "skills": ["JavaScript", "React", "Node.js"],
   "experience": [
@@ -109,8 +109,8 @@ Response:
 [
   {
     "_id": "resume_id",
-    "name": "aa",
-    "email": "aa@example.com"
+    "name": "John Doe",
+    "email": "johndoe@example.com"
   }
 ]
 
@@ -129,7 +129,7 @@ Description: Updates a resume by ID.
 Request Body:
 
 {
-  "name": "aa Updated",
+  "name": "John Doe Updated",
   "skills": ["JavaScript", "React", "TypeScript"]
 }
 
@@ -140,8 +140,6 @@ Endpoint: DELETE /api/resumes/:id
 Description: Deletes a resume by ID.
 
 Database Schema
-
-Below is the database schema used for the ResumeXpert API:
 
 Collections and Relationships:
 
