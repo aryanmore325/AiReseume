@@ -3,7 +3,7 @@
 ## Overview
 The ResumeXpert is a simple application that allows users to manage their notes. This API is built using Node.js, Express.js, and MongoDB.
 
-LIVE URL - ai-reseume.vercel.app
+LIVE URL - [ai-reseume.vercel.app](https://ai-reseume-f5dwhkscn-aryanmore325s-projects.vercel.app)
 
 ## Features
 - Create a new note
