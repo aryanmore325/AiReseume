@@ -1,12 +1,10 @@
-ResumeXpert API (CRUD App)
+ResumeXpert 
 
 Overview
 
-The ResumeXpert API is a simple CRUD (Create, Read, Update, Delete) application that allows users to manage their resumes. This API is built using Node.js, Express.js, and MongoDB.
+The ResumeXpert is a simple  application that allows users to manage their resumes. This API is built using Node.js, Express.js, and MongoDB.
 
-LIVE URL
-
-ai-reseume-nsfmo39bw-aryanmore325s-projects.vercel.app
+LIVE URL - [Your Live URL Here]
 
 Features
 
@@ -26,7 +24,7 @@ Node.js
 
 Express.js
 
-MongoDB (Mongoose ODM)
+MongoDB (with Mongoose ODM)
 
 Postman (for testing API endpoints)
 
@@ -46,7 +44,9 @@ npm install
 
 Set up environment variables:
 
-Create a .env file in the root directory and add the following:
+Create a .env file in the root directory.
+
+Add the following environment variables:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -140,6 +140,8 @@ Endpoint: DELETE /api/resumes/:id
 Description: Deletes a resume by ID.
 
 Database Schema
+
+Below is the database schema used for the ResumeXpert API:
 
 Collections and Relationships:
 
