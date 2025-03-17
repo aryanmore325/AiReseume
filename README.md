@@ -3,7 +3,7 @@
 ## Overview
 The ResumeXpert is a simple application that allows users to manage their notes. This API is built using Node.js, Express.js, and MongoDB.
 
-LIVE URL - https://stunning-quokka-be66dc.netlify.app
+LIVE URL - ai-reseume-8g66hi1dk-aryanmore325s-projects.vercel.app
 
 ## Features
 - Create a new note
@@ -22,7 +22,7 @@ LIVE URL - https://stunning-quokka-be66dc.netlify.app
 
 1. Clone the repository:
    ```bash
-  git clone https://github.com/your-username/resumeXpert-api.git
+   git clone https://github.com/your-username/resumeXpert-api.git
    ```
 2. Navigate to the project directory:
    ```bash
