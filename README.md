@@ -26,7 +26,7 @@ LIVE URL - ai-reseume-8g66hi1dk-aryanmore325s-projects.vercel.app
    ```
 2. Navigate to the project directory:
    ```bash
-  cd resumeXpert-api
+   cd resumeXpert-api
    ```
 3. Install dependencies:
    ```bash
